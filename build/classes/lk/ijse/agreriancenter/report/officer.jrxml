@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="officer" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="86671543-fbc5-4350-8e8d-6dfe614ebefc">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter (2)"/>
+	<style name="Table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="Dataset1" uuid="0cd7377d-f1af-4a8a-a187-6a6c10c50cc6">
+		<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter (3)"/>
+		<queryString language="SQL">
+			<![CDATA[select * from officer]]>
+		</queryString>
+		<field name="officerID" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.label" value="officerID"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="officer"/>
+		</field>
+		<field name="officerName" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.label" value="officerName"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="officer"/>
+		</field>
+		<field name="officerAdress" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.label" value="officerAdress"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="officer"/>
+		</field>
+		<field name="officerNic" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.label" value="officerNic"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="officer"/>
+		</field>
+		<field name="officerTP" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.label" value="officerTP"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="officer"/>
+		</field>
+		<group name="officerID">
+			<groupExpression><![CDATA[$F{officerID}]]></groupExpression>
+		</group>
+		<group name="officerName">
+			<groupExpression><![CDATA[$F{officerName}]]></groupExpression>
+		</group>
+		<group name="officerAdress">
+			<groupExpression><![CDATA[$F{officerAdress}]]></groupExpression>
+		</group>
+		<group name="officerNic">
+			<groupExpression><![CDATA[$F{officerNic}]]></groupExpression>
+		</group>
+		<group name="officerTP">
+			<groupExpression><![CDATA[$F{officerTP}]]></groupExpression>
+		</group>
+	</subDataset>
+	<queryString language="SQL">
+		<![CDATA[select * from officer]]>
+	</queryString>
+	<field name="officerID" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="officerID"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="officer"/>
+	</field>
+	<field name="officerName" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="officerName"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="officer"/>
+	</field>
+	<field name="officerAdress" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="officerAdress"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="officer"/>
+	</field>
+	<field name="officerNic" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="officerNic"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="officer"/>
+	</field>
+	<field name="officerTP" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.label" value="officerTP"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="officer"/>
+	</field>
+	<group name="officerID">
+		<groupExpression><![CDATA[$F{officerID}]]></groupExpression>
+	</group>
+	<group name="officerName">
+		<groupExpression><![CDATA[$F{officerName}]]></groupExpression>
+	</group>
+	<group name="officerAdress">
+		<groupExpression><![CDATA[$F{officerAdress}]]></groupExpression>
+	</group>
+	<group name="officerNic">
+		<groupExpression><![CDATA[$F{officerNic}]]></groupExpression>
+	</group>
+	<group name="officerTP">
+		<groupExpression><![CDATA[$F{officerTP}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="117" splitType="Stretch">
+			<image>
+				<reportElement x="0" y="6" width="560" height="80" uuid="cc80ee46-95f2-40a1-9ff9-dca01360d52d"/>
+				<imageExpression><![CDATA["E:/Agrerian Center/AgrerianCenter/src/lk/ijse/agreriancenter/assest/FinalHeader.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="180" y="86" width="200" height="31" uuid="1b2509c5-618b-485f-b4ce-607c90e351ae"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Reports Of Officer]]></text>
+			</staticText>
+		</band>
+	</title>
+	<detail>
+		<band height="380" splitType="Stretch">
+			<componentElement>
+				<reportElement x="10" y="38" width="550" height="342" uuid="f3113bb2-f30d-4e10-9127-153dbc8281f2">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table_TD"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="Dataset1" uuid="537af5b9-71da-4a26-880a-5ac8d84a8834">
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="70" uuid="7865628b-9e36-413d-b4b3-1d3f4a5bb6e2">
+						<jr:tableHeader style="Table_TH" height="2"/>
+						<jr:tableFooter style="Table_TH" height="30"/>
+						<jr:columnHeader style="Table_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="70" height="30" uuid="808618f0-24f2-4c8c-a195-b5f3517f066a"/>
+								<textElement textAlignment="Center"/>
+								<text><![CDATA[officerID]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="Table_CH" height="30"/>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="70" height="30" uuid="450abd39-db15-489f-b75b-89f82dd3f55a"/>
+								<textElement textAlignment="Center"/>
+								<textFieldExpression><![CDATA[$F{officerID}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="130" uuid="14de98ae-65b7-487e-9de9-032be98c07ac">
+						<jr:tableHeader style="Table_TH" height="2"/>
+						<jr:tableFooter style="Table_TH" height="30"/>
+						<jr:columnHeader style="Table_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="130" height="30" uuid="af71b9a8-39c1-4748-83f1-dd53f99059b9"/>
+								<textElement textAlignment="Center"/>
+								<text><![CDATA[officerName]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="Table_CH" height="30"/>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="130" height="30" uuid="cefd2f0a-ec8b-42bd-9509-4c247d70f7b3"/>
+								<textElement textAlignment="Center"/>
+								<textFieldExpression><![CDATA[$F{officerName}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="180" uuid="b5187240-1de0-4d9f-8065-807176f13977">
+						<jr:tableHeader style="Table_TH" height="2"/>
+						<jr:tableFooter style="Table_TH" height="30"/>
+						<jr:columnHeader style="Table_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="180" height="30" uuid="54fa956c-3714-48c9-8c08-745354431ce6"/>
+								<textElement textAlignment="Center"/>
+								<text><![CDATA[officerAdress]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="Table_CH" height="30"/>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="180" height="30" uuid="e61af374-7bb5-45ef-bc39-813adf97bfe1"/>
+								<textElement textAlignment="Center"/>
+								<textFieldExpression><![CDATA[$F{officerAdress}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="6664515a-66a5-4551-85b4-11622e66f4a9">
+						<jr:tableHeader style="Table_TH" height="2"/>
+						<jr:tableFooter style="Table_TH" height="30"/>
+						<jr:columnHeader style="Table_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="30" uuid="0015daee-85e4-4cc3-9ac2-286f79b26af9"/>
+								<textElement textAlignment="Center"/>
+								<text><![CDATA[officerNic]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="Table_CH" height="30"/>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="90" height="30" uuid="afbea346-28f0-4b49-b02c-9e8395af4a67"/>
+								<textElement textAlignment="Center"/>
+								<textFieldExpression><![CDATA[$F{officerNic}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="80" uuid="6d9fbac3-4401-4b89-bafe-5ef919cfd47b">
+						<jr:tableHeader style="Table_TH" height="2"/>
+						<jr:tableFooter style="Table_TH" height="30"/>
+						<jr:columnHeader style="Table_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="80" height="30" uuid="c209530c-b17a-4aa5-961e-2821b1828c95"/>
+								<textElement textAlignment="Center"/>
+								<text><![CDATA[officerTP]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="Table_CH" height="30"/>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="80" height="30" uuid="cafc02f7-984a-49da-8fc9-a189feb8fb36"/>
+								<textElement textAlignment="Center"/>
+								<textFieldExpression><![CDATA[$F{officerTP}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+	</detail>
+</jasperReport>

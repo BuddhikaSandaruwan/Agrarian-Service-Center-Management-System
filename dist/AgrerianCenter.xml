@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>E:\PROJECT\Agrerian Center\AgrerianCenter\dist\AgrerianCenter.jar</jar>
+  <outfile>E:\PROJECT\Agrerian Center\AgrerianCenter\dist\final.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>true</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>E:\Icons\3D icons\2.ico</icon>
+  <singleInstance>
+    <mutexName>AgrerianCenter</mutexName>
+    <windowTitle>AgrerianCenter</windowTitle>
+  </singleInstance>
+  <classPath>
+    <mainClass>lk.ijse.agreriancenter.core.main</mainClass>
+    <cp>lib/com.lowagie.text-2.1.7.jar</cp>
+    <cp>lib/commons-beanutils-1.8.3.jar</cp>
+    <cp>lib/commons-digester-2.1.jar</cp>
+    <cp>lib/itext-2.1.7-src.jar</cp>
+    <cp>lib/itextpdf-5.3.4.jar</cp>
+    <cp>lib/jasperreports-6.4.3.jar</cp>
+    <cp>lib/jasperreports-fonts-6.4.3.jar</cp>
+    <cp>lib/jasperreports-javaflow-6.4.3.jar</cp>
+    <cp>lib/jcommon-1.0.8.jar</cp>
+    <cp>lib/jfoenix.jar</cp>
+    <cp>lib/jfreechart-1.0.13.jar</cp>
+    <cp>lib/mysql-connector-java-5.1.23-bin.jar</cp>
+    <cp>lib/mysql-connector-java-5.1.6-bin.jar</cp>
+    <cp>lib/org-apache-commons-logging.jar</cp>
+    <cp>lib/org.apache.commons.collections.jar</cp>
+  </classPath>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.5</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+</launch4jConfig>

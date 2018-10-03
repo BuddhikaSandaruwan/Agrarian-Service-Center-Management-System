@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="1078.0" prefWidth="1443.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.agreriancenter.controller.YayaController">
+   <children>
+      <ImageView fitHeight="193.0" fitWidth="1441.0" layoutX="-3.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assest/FinalHeader.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="2.0" layoutY="187.0" opacity="0.8" prefHeight="886.0" prefWidth="1435.0" style="-fx-background-color: white;">
+         <children>
+            <TableView fx:id="tableYaya" layoutX="485.0" layoutY="105.0" onMouseClicked="#tableClick" prefHeight="757.0" prefWidth="922.0">
+               <columns>
+                  <TableColumn prefWidth="184.00003051757812" text="Yaya ID" />
+                  <TableColumn prefWidth="747.2000732421875" text="Yaya Name" />
+               </columns>
+            </TableView>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="604.0" layoutY="2.0" prefHeight="76.0" prefWidth="270.0" text="Yaya" textFill="#0b0b0b">
+               <font>
+                  <Font name="System Bold" size="54.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="butAdd" layoutX="303.0" layoutY="374.0" onMouseClicked="#addClick" prefHeight="74.0" prefWidth="151.0" style="-fx-background-color: #53ce46;" text="ADD">
+               <font>
+                  <Font size="34.0" />
+               </font>
+            </JFXButton>
+            <JFXTextField fx:id="txtYayaName" labelFloat="true" layoutX="13.0" layoutY="211.0" prefHeight="68.0" prefWidth="444.0" promptText="Yaya Name">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="txtYayaId" labelFloat="true" layoutX="11.0" layoutY="107.0" prefHeight="68.0" prefWidth="444.0" promptText="Yaya ID">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXTextField>
+            <Separator layoutX="467.0" layoutY="113.0" orientation="VERTICAL" prefHeight="754.0" prefWidth="0.0" style="-fx-background-color: gray;" />
+            <JFXButton fx:id="butDelete" layoutY="379.0" onMouseClicked="#deleteClick" prefHeight="58.0" prefWidth="126.0" style="-fx-background-color: #53ce46;" text="delete">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="butUpdate" layoutX="132.0" layoutY="373.0" onMouseClicked="#updateClick" prefHeight="58.0" prefWidth="162.0" style="-fx-background-color: #53ce46;" text="update">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

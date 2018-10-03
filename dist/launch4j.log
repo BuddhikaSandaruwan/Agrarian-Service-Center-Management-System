@@ -1,0 +1,44 @@
+
+
+Version:	3.12
+CmdLine:	E:\PROJECT\Agrerian Center\AgrerianCenter\dist\final.exe --l4j-debug
+WOW64:		yes
+Create mutex:	AgrerianCenter
+Working dir:	E:\PROJECT\Agrerian Center\AgrerianCenter\dist\.
+Java min ver:	1.005.000
+Java max ver:	
+64-bit search:	SOFTWARE\JavaSoft\Java Runtime Environment...
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8
+Check launcher:	C:\Program Files\Java\jre1.8.0_171\bin\javaw.exe (OK)
+Match:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Runtime Environment\1.8.0_171
+Check launcher:	C:\Program Files\Java\jre1.8.0_171\bin\javaw.exe (OK)
+Match:		1.008.000_171
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8
+Ignore:		1.008.000
+Check:		SOFTWARE\JavaSoft\Java Development Kit\1.8.0_51
+Ignore:		1.008.000_051
+64-bit search:	SOFTWARE\JavaSoft\JRE...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Runtime used:	1.008.000_171 (64-bit)
+Main class:	lk.ijse.agreriancenter.core.main
+Add classpath:	lib\com.lowagie.text-2.1.7.jar
+Add classpath:	lib\commons-beanutils-1.8.3.jar
+Add classpath:	lib\commons-digester-2.1.jar
+Add classpath:	lib\itext-2.1.7-src.jar
+Add classpath:	lib\itextpdf-5.3.4.jar
+Add classpath:	lib\jasperreports-6.4.3.jar
+Add classpath:	lib\jasperreports-fonts-6.4.3.jar
+Add classpath:	lib\jasperreports-javaflow-6.4.3.jar
+Add classpath:	lib\jcommon-1.0.8.jar
+Add classpath:	lib\jfoenix.jar
+Add classpath:	lib\jfreechart-1.0.13.jar
+Add classpath:	lib\mysql-connector-java-5.1.23-bin.jar
+Add classpath:	lib\mysql-connector-java-5.1.6-bin.jar
+Add classpath:	lib\org-apache-commons-logging.jar
+Add classpath:	lib\org.apache.commons.collections.jar
+Launcher:	C:\Program Files\Java\jre1.8.0_171\bin\javaw.exe
+Launcher args:	-classpath "E:\PROJECT\Agrerian Center\AgrerianCenter\dist\final.exe;lib\com.lowagie.text-2.1.7.jar;lib\commons-beanutils-1.8.3.jar;lib\commons-digester-2.1.jar;lib\itext-2.1.7-src.jar;lib\itextpdf-5.3.4.jar;lib\jasperreports-6.4.3.jar;lib\jasperreports-fonts-6.4.3.jar;lib\jasperreports-javaflow-6.4.3.jar;lib\jcommon-1.0.8.jar;lib\jfoenix.jar;lib\jfreechart-1.0.13.jar;lib\mysql-connector-java-5.1.23-bin.jar;lib\mysql-connector-java-5.1.6-bin.jar;lib\org-apache-commons-logging.jar;lib\org.apache.commons.collections.jar" lk.ijse.agreriancenter.core.main
+Args length:	557/32768 chars
+Exit code:	0

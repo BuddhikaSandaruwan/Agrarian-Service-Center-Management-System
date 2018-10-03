@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="1078.0" prefWidth="1443.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.agreriancenter.controller.UpdateStockController">
+   <children>
+      <ImageView fitHeight="193.0" fitWidth="1441.0" layoutX="-3.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assest/FinalHeader.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="2.0" layoutY="187.0" opacity="0.8" prefHeight="886.0" prefWidth="1435.0" style="-fx-background-color: white;">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="582.0" layoutY="-2.0" prefHeight="92.0" prefWidth="360.0" text="Update Stock" textFill="#0b0b0b">
+               <font>
+                  <Font name="System Bold" size="54.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="txtStockOnHand" labelFloat="true" layoutX="38.0" layoutY="286.0" prefHeight="68.0" prefWidth="474.0" promptText="Sctock On Hand">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="txtNewQty" labelFloat="true" layoutX="36.0" layoutY="383.0" prefHeight="68.0" prefWidth="479.0" promptText="New QTY">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXTextField>
+            <JFXComboBox fx:id="combFertilizerId" labelFloat="true" layoutX="42.0" layoutY="197.0" onAction="#searchFromID" prefHeight="46.0" prefWidth="474.0" promptText="Fertilizer ID" />
+            <JFXButton fx:id="butAdd" layoutX="321.0" layoutY="600.0" onMouseClicked="#addClicked" prefHeight="76.0" prefWidth="157.0" style="-fx-background-color: #53ce46;" text="ADD">
+               <font>
+                  <Font size="43.0" />
+               </font>
+            </JFXButton>
+            <TableView fx:id="table" layoutX="610.0" layoutY="104.0" onMouseClicked="#tableSelected" prefHeight="668.0" prefWidth="804.0">
+              <columns>
+                <TableColumn prefWidth="99.199951171875" text="StockDetails ID" />
+                <TableColumn prefWidth="335.2000732421875" text="Fertilizer ID" />
+                  <TableColumn prefWidth="368.0" text="qty" />
+              </columns>
+            </TableView>
+            <Separator layoutX="579.0" layoutY="98.0" orientation="VERTICAL" prefHeight="748.0" prefWidth="5.0" style="-fx-background-color: gray;" />
+            <DatePicker fx:id="datePicker" layoutX="105.0" layoutY="528.0" prefHeight="47.0" prefWidth="180.0" promptText="Date" />
+            <Label layoutX="37.0" layoutY="535.0" prefHeight="34.0" prefWidth="158.0" text="Date  :">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="txtStockId" labelFloat="true" layoutX="36.0" layoutY="82.0" prefHeight="68.0" prefWidth="485.0" promptText="StockDetailsId">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXTextField>
+            <JFXButton fx:id="butDelete" layoutX="46.0" layoutY="611.0" onMouseClicked="#deleteClick" prefHeight="94.0" prefWidth="243.0" text="Delete">
+               <font>
+                  <Font size="43.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="butUpdate" layoutX="264.0" layoutY="702.0" onMouseClicked="#updateClick" prefHeight="94.0" prefWidth="223.0" text="Update">
+               <font>
+                  <Font size="43.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

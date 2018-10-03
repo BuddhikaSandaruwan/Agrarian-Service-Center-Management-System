@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="1078.0" prefWidth="1443.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.agreriancenter.controller.ReportController">
+   <children>
+      <ImageView fitHeight="193.0" fitWidth="1441.0" layoutX="-3.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assest/FinalHeader.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="2.0" layoutY="187.0" opacity="0.8" prefHeight="886.0" prefWidth="1435.0" style="-fx-background-color: #ccc;">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="582.0" layoutY="-2.0" prefHeight="92.0" prefWidth="270.0" text="Reports" textFill="#0b0b0b">
+               <font>
+                  <Font name="System Bold" size="54.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="butAdd" layoutX="102.0" layoutY="95.0" onMouseClicked="#farmerClick" prefHeight="74.0" prefWidth="510.0" style="-fx-background-color: #30af1d;" text="Farmers">
+               <font>
+                  <Font size="34.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </JFXButton>
+            <JFXButton fx:id="butAdd1" layoutX="99.0" layoutY="221.0" onMouseClicked="#fertilizerClick" prefHeight="74.0" prefWidth="510.0" style="-fx-background-color: #30af1d;" text="fertilizer">
+               <font>
+                  <Font size="34.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </JFXButton>
+            <JFXButton fx:id="butAdd2" layoutX="106.0" layoutY="351.0" onMouseClicked="#gsDivitionClick" prefHeight="74.0" prefWidth="510.0" style="-fx-background-color: #30af1d;" text="gsdivition">
+               <font>
+                  <Font size="34.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </JFXButton>
+            <JFXButton fx:id="butAdd3" layoutX="107.0" layoutY="484.0" onMouseClicked="#officerClick" prefHeight="74.0" prefWidth="510.0" style="-fx-background-color: #30af1d;" text="officer">
+               <font>
+                  <Font size="34.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </JFXButton>
+            <JFXButton fx:id="butAdd4" layoutX="109.0" layoutY="613.0" onMouseClicked="#ownerClick" prefHeight="74.0" prefWidth="510.0" style="-fx-background-color: #30af1d;" text="owner">
+               <font>
+                  <Font size="34.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </JFXButton>
+            <JFXButton fx:id="butAdd5" layoutX="111.0" layoutY="746.0" onMouseClicked="#paddyFieldClick" prefHeight="74.0" prefWidth="510.0" style="-fx-background-color: #30af1d;" text="paddyfield">
+               <font>
+                  <Font size="34.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </JFXButton>
+            <JFXButton fx:id="butAdd6" layoutX="825.0" layoutY="90.0" onMouseClicked="#stockClick" prefHeight="74.0" prefWidth="510.0" style="-fx-background-color: #30af1d;" text="stock">
+               <font>
+                  <Font size="34.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </JFXButton>
+            <JFXButton fx:id="butAdd11" layoutX="822.0" layoutY="216.0" onMouseClicked="#addClick" prefHeight="74.0" prefWidth="510.0" style="-fx-background-color: #30af1d;" text="Stock Details">
+               <font>
+                  <Font size="34.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </JFXButton>
+            <JFXButton fx:id="butAdd21" layoutX="829.0" layoutY="346.0" onMouseClicked="#txxClick" prefHeight="74.0" prefWidth="510.0" style="-fx-background-color: #30af1d;" text="tax">
+               <font>
+                  <Font size="34.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </JFXButton>
+            <JFXButton fx:id="butAdd31" layoutX="830.0" layoutY="479.0" onMouseClicked="#yayaClick" prefHeight="74.0" prefWidth="510.0" style="-fx-background-color: #30af1d;" text="yaya">
+               <font>
+                  <Font size="34.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </JFXButton>
+            <JFXButton fx:id="butAdd41" layoutX="832.0" layoutY="608.0" onMouseClicked="#addClick" prefHeight="74.0" prefWidth="510.0" style="-fx-background-color: #30af1d;" text="ADD">
+               <font>
+                  <Font size="34.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </JFXButton>
+            <JFXButton fx:id="butAdd51" layoutX="834.0" layoutY="741.0" onMouseClicked="#addClick" prefHeight="74.0" prefWidth="510.0" style="-fx-background-color: #30af1d;" text="ADD">
+               <font>
+                  <Font size="34.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

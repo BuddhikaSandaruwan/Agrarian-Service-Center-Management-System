@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1070.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.agreriancenter.controller.DashBordController">
+   <children>
+      <ImageView fitHeight="1093.0" fitWidth="1943.0" layoutX="-19.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-6.0" AnchorPane.leftAnchor="-19.0" AnchorPane.rightAnchor="-4.0" AnchorPane.topAnchor="-1.0">
+         <image>
+            <Image url="@../assest/look_at_all_that_rice-wallpaper-1920x1080.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane fx:id="root" layoutX="-1.0" layoutY="3.0" opacity="0.79" prefHeight="1070.0" prefWidth="468.0" style="-fx-background-color: black;">
+         <children>
+            <ImageView fitHeight="206.0" fitWidth="548.0" layoutX="3.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assest/index_01.png" />
+               </image>
+            </ImageView>
+            <JFXButton fx:id="butPaddyField" layoutX="2.0" layoutY="210.0" onMouseClicked="#mouseClickedPaddyField" onMouseEntered="#mouseEnterdPaddyField" prefHeight="75.0" prefWidth="478.0" text="Paddy Field" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="butGSDivition" layoutX="2.0" layoutY="285.0" onMouseClicked="#mouseClickedGSDivition" onMouseEntered="#mouseEnterdGsDivition" prefHeight="75.0" prefWidth="478.0" text="GS Divitoin" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="butOfficer" layoutX="2.0" layoutY="360.0" onMouseClicked="#mouseClickedOfficer" onMouseEntered="#mouseEnterdOfficer" prefHeight="75.0" prefWidth="478.0" text="Officer" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="butYaya" layoutX="2.0" layoutY="435.0" onMouseClicked="#mouseClickedyaya" onMouseEntered="#mouseEnterdYaya" prefHeight="75.0" prefWidth="478.0" text="Yaya" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="butTax" layoutX="6.0" layoutY="510.0" onMouseClicked="#mouseClickedTax" onMouseEntered="#mouseEnterdTax" prefHeight="75.0" prefWidth="471.0" text="Tax" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="butFertilizer" layoutX="8.0" layoutY="585.0" onMouseClicked="#mouseClickedFertilizer" onMouseEntered="#mouseEnterdFertilizer" prefHeight="75.0" prefWidth="471.0" text="Fertilizer" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="butUpdateStock" layoutX="6.0" layoutY="660.0" onMouseClicked="#mouseClickedUpdateStock" onMouseEntered="#mouseEnterdUpdateStock" prefHeight="75.0" prefWidth="471.0" text="Update Stock" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="butIssueFertilizer" layoutX="8.0" layoutY="735.0" onMouseClicked="#mouseClickedIssueFertilizer" onMouseEntered="#mouseEnterdIssueFertilizer" prefHeight="75.0" prefWidth="471.0" text="Issue Fertilizer" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="butUpdateTax" layoutX="6.0" layoutY="810.0" onMouseClicked="#mouseClickedUpdateTax" onMouseEntered="#mouseEnterdUpdateTax" prefHeight="75.0" prefWidth="471.0" text="Update Tax" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="butReport" layoutX="8.0" layoutY="885.0" onMouseClicked="#reportClick" onMouseEntered="#mouseEnterdReports" prefHeight="75.0" prefWidth="471.0" text="Reports" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="butLogOut" layoutX="6.0" layoutY="960.0" onMouseClicked="#mouseClickedLogOut" onMouseEntered="#mouseEnterdLogOut" prefHeight="75.0" prefWidth="471.0" text="LogOut" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="lordPnl" layoutX="479.0" opacity="0.97" prefHeight="885.0" prefWidth="1443.0" AnchorPane.bottomAnchor="0.0" />
+      <ImageView fitHeight="193.0" fitWidth="1441.0" layoutX="375.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../assest/FinalHeader.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblDate" layoutX="1748.0" layoutY="7.0" prefHeight="46.0" prefWidth="124.0" textFill="#2512d2">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblTime" layoutX="1740.0" layoutY="64.0" prefHeight="38.0" prefWidth="134.0" textFill="#096c0c">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

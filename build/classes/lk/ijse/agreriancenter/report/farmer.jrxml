@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="farmer" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="3b71a9a0-3800-4aa4-b459-87ff69124a05">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter (2)"/>
+	<style name="Table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="farmer" uuid="cbe17c56-77d5-4456-b101-4a8541dfb013">
+		<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter (2)"/>
+		<queryString language="SQL">
+			<![CDATA[select * from farmer]]>
+		</queryString>
+		<field name="farmerID" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.label" value="farmerID"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="farmer"/>
+		</field>
+		<field name="farmerName" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.label" value="farmerName"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="farmer"/>
+		</field>
+		<field name="farmerAdress" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.label" value="farmerAdress"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="farmer"/>
+		</field>
+		<field name="farmerNIC" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.label" value="farmerNIC"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="farmer"/>
+		</field>
+		<field name="farmerTP" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.label" value="farmerTP"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="farmer"/>
+		</field>
+		<field name="farmerType" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.label" value="farmerType"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="farmer"/>
+		</field>
+		<group name="farmerID">
+			<groupExpression><![CDATA[$F{farmerID}]]></groupExpression>
+		</group>
+		<group name="farmerName">
+			<groupExpression><![CDATA[$F{farmerName}]]></groupExpression>
+		</group>
+		<group name="farmerAdress">
+			<groupExpression><![CDATA[$F{farmerAdress}]]></groupExpression>
+		</group>
+		<group name="farmerNIC">
+			<groupExpression><![CDATA[$F{farmerNIC}]]></groupExpression>
+		</group>
+		<group name="farmerTP">
+			<groupExpression><![CDATA[$F{farmerTP}]]></groupExpression>
+		</group>
+		<group name="farmerType">
+			<groupExpression><![CDATA[$F{farmerType}]]></groupExpression>
+		</group>
+	</subDataset>
+	<queryString language="SQL">
+		<![CDATA[select * from farmer]]>
+	</queryString>
+	<field name="farmerID" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="farmerID"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="farmer"/>
+	</field>
+	<field name="farmerName" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="farmerName"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="farmer"/>
+	</field>
+	<field name="farmerAdress" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="farmerAdress"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="farmer"/>
+	</field>
+	<field name="farmerNIC" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="farmerNIC"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="farmer"/>
+	</field>
+	<field name="farmerTP" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.label" value="farmerTP"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="farmer"/>
+	</field>
+	<field name="farmerType" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="farmerType"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="farmer"/>
+	</field>
+	<group name="farmerID">
+		<groupExpression><![CDATA[$F{farmerID}]]></groupExpression>
+	</group>
+	<group name="farmerName">
+		<groupExpression><![CDATA[$F{farmerName}]]></groupExpression>
+	</group>
+	<group name="farmerAdress">
+		<groupExpression><![CDATA[$F{farmerAdress}]]></groupExpression>
+	</group>
+	<group name="farmerNIC">
+		<groupExpression><![CDATA[$F{farmerNIC}]]></groupExpression>
+	</group>
+	<group name="farmerTP">
+		<groupExpression><![CDATA[$F{farmerTP}]]></groupExpression>
+	</group>
+	<group name="farmerType">
+		<groupExpression><![CDATA[$F{farmerType}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="117" splitType="Stretch">
+			<image>
+				<reportElement x="0" y="6" width="560" height="80" uuid="65f2ea16-76a1-445b-8143-46c4874a9ca7"/>
+				<imageExpression><![CDATA["E:/Agrerian Center/AgrerianCenter/src/lk/ijse/agreriancenter/assest/FinalHeader.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="180" y="86" width="200" height="31" uuid="8a0deb48-d455-4afd-9bc9-b0842cc93064"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Reports Of Farmer]]></text>
+			</staticText>
+		</band>
+	</title>
+	<detail>
+		<band height="440" splitType="Stretch">
+			<componentElement>
+				<reportElement x="-10" y="10" width="560" height="430" uuid="5245e373-5753-48c4-9d02-c6ed26609068">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table_TD"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="farmer" uuid="c39f8e36-5b22-4cc7-b694-6e7a2d1c6c41">
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="50" uuid="7a7f0f2a-5847-4456-8b98-e87c8d38dde0">
+						<jr:tableHeader style="Table_TH" height="2"/>
+						<jr:tableFooter style="Table_TH" height="30"/>
+						<jr:columnHeader style="Table_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="50" height="30" uuid="10a0bdaa-ba6b-4c57-8e25-b06f4f5249ce"/>
+								<textElement textAlignment="Center"/>
+								<text><![CDATA[farmerID]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="Table_CH" height="30"/>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="50" height="30" uuid="f0ded060-6b37-48b4-991c-c3863b6f0b88"/>
+								<textElement textAlignment="Center"/>
+								<textFieldExpression><![CDATA[$F{farmerID}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="100" uuid="634103e6-bb9f-4111-ba12-fe9173da944c">
+						<jr:tableHeader style="Table_TH" height="2"/>
+						<jr:tableFooter style="Table_TH" height="30"/>
+						<jr:columnHeader style="Table_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="100" height="30" uuid="ff34b8fe-9fc0-428a-8235-a185d23455b9"/>
+								<textElement textAlignment="Center"/>
+								<text><![CDATA[farmerName]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="Table_CH" height="30"/>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="100" height="30" uuid="a7e5a0be-1077-4b24-8f78-d1de0b4195fb"/>
+								<textElement textAlignment="Center"/>
+								<textFieldExpression><![CDATA[$F{farmerName}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="150" uuid="402d85a9-100d-47e3-800c-7f27310e2ba2">
+						<jr:tableHeader style="Table_TH" height="2"/>
+						<jr:tableFooter style="Table_TH" height="30"/>
+						<jr:columnHeader style="Table_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="150" height="30" uuid="27c685ac-70e7-4d9e-87bc-59591d9ebcfb"/>
+								<textElement textAlignment="Center"/>
+								<text><![CDATA[farmerAdress]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="Table_CH" height="30"/>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="150" height="30" uuid="a73ab19f-edb1-4750-8791-78c3a18e9e09"/>
+								<textElement textAlignment="Center"/>
+								<textFieldExpression><![CDATA[$F{farmerAdress}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="100" uuid="c2903b1d-e5a9-4a24-b532-5e64b3018688">
+						<jr:tableHeader style="Table_TH" height="2"/>
+						<jr:tableFooter style="Table_TH" height="30"/>
+						<jr:columnHeader style="Table_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="100" height="30" uuid="9e20edf2-89cd-4551-92bd-4759382c3a60"/>
+								<textElement textAlignment="Center"/>
+								<text><![CDATA[farmerNIC]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="Table_CH" height="30"/>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="100" height="30" uuid="e60ba0c2-35ba-4a6f-8721-db26a59d5ee3"/>
+								<textElement textAlignment="Center"/>
+								<textFieldExpression><![CDATA[$F{farmerNIC}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="80" uuid="d0dfa950-7594-4117-a70c-84d6f7c02214">
+						<jr:tableHeader style="Table_TH" height="2"/>
+						<jr:tableFooter style="Table_TH" height="30"/>
+						<jr:columnHeader style="Table_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="80" height="30" uuid="09c05cea-63dd-47aa-8365-f154f2876cfc"/>
+								<textElement textAlignment="Center"/>
+								<text><![CDATA[farmerTP]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="Table_CH" height="30"/>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="80" height="30" uuid="4356de4b-3e80-40dc-b735-98f900d55f57"/>
+								<textElement textAlignment="Center"/>
+								<textFieldExpression><![CDATA[$F{farmerTP}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="80" uuid="83b57f7d-fa9d-4219-94af-24abc15ab13b">
+						<jr:tableHeader style="Table_TH" height="2"/>
+						<jr:tableFooter style="Table_TH" height="30"/>
+						<jr:columnHeader style="Table_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="80" height="30" uuid="f13a958d-6d1a-427f-b384-d1208eb56d32"/>
+								<textElement textAlignment="Center"/>
+								<text><![CDATA[farmerType]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:columnFooter style="Table_CH" height="30"/>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="80" height="30" uuid="bb02843a-ab26-47bb-a348-0370ed23a495"/>
+								<textElement textAlignment="Center"/>
+								<textFieldExpression><![CDATA[$F{farmerType}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+	</detail>
+</jasperReport>

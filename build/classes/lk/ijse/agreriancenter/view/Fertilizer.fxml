@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="1078.0" prefWidth="1443.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.agreriancenter.controller.FertilizerController">
+   <children>
+      <ImageView fitHeight="193.0" fitWidth="1441.0" layoutX="-3.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assest/FinalHeader.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="2.0" layoutY="187.0" opacity="0.8" prefHeight="886.0" prefWidth="1435.0" style="-fx-background-color: white;">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="582.0" layoutY="-2.0" prefHeight="92.0" prefWidth="270.0" text="Fertilizer" textFill="#0b0b0b">
+               <font>
+                  <Font name="System Bold" size="54.0" />
+               </font>
+            </Label>
+            <Separator layoutX="547.0" layoutY="96.0" orientation="VERTICAL" prefHeight="739.0" prefWidth="6.0" style="-fx-background-color: gray;" />
+            <JFXTextField fx:id="txtFertilizerId" labelFloat="true" layoutX="49.0" layoutY="82.0" prefHeight="68.0" prefWidth="476.0" promptText="Fertilizer ID">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="txtFertilizerName" labelFloat="true" layoutX="47.0" layoutY="189.0" prefHeight="68.0" prefWidth="476.0" promptText="Fertilizer Name">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="txtQtyOnHand" labelFloat="true" layoutX="47.0" layoutY="302.0" prefHeight="68.0" prefWidth="477.0" promptText="QTY On Hand">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="txtFertilizerRate" labelFloat="true" layoutX="44.0" layoutY="423.0" prefHeight="68.0" prefWidth="482.0" promptText="Fertilizer Rate">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </JFXTextField>
+            <JFXButton fx:id="butAdd" layoutX="384.0" layoutY="602.0" onMouseClicked="#addFertilizerOnMouseClicked" prefHeight="92.0" prefWidth="162.0" style="-fx-background-color: #53ce46;" text="ADD">
+               <font>
+                  <Font size="43.0" />
+               </font>
+            </JFXButton>
+            <TableView fx:id="tableFertilizer" layoutX="574.0" layoutY="97.0" onMouseClicked="#tableclick" prefHeight="766.0" prefWidth="834.0">
+              <columns>
+                <TableColumn prefWidth="75.0" text="Fertilizer ID" />
+                <TableColumn prefWidth="392.0" text="Fertilizer Name" />
+                  <TableColumn prefWidth="208.0001220703125" text="QTY On Hand" />
+                  <TableColumn prefWidth="158.400146484375" text="Fertilizer Rate" />
+              </columns>
+            </TableView>
+            <JFXButton fx:id="butDelete" layoutX="17.0" layoutY="602.0" onMouseClicked="#deleteFertilizerOnMouseClicked" prefHeight="94.0" prefWidth="182.0" style="-fx-background-color: #53ce46;" text="Delete">
+               <font>
+                  <Font size="43.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="butUpdate" layoutX="207.0" layoutY="601.0" onMouseClicked="#updateClick" prefHeight="92.0" prefWidth="170.0" style="-fx-background-color: #53ce46;" text="Update">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
